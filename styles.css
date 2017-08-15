@@ -57,11 +57,16 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/hudson.jpeg') no-repeat top center ;
+  background: url('images/hudson.jpeg') no-repeat top center;
+
   background-size: cover;
+
+
   overflow: hidden;
   padding-top: 60px;
 }
+
+
 header {
   line-height: 1.5;
 }
@@ -127,6 +132,11 @@ ul.skills {
   background: #5485a6;
 }
 
+.sailboat-from-above, .cad, .tablet-tool, .programing {
+  width: 100%
+
+}
+
 footer {
   width: 100%;
   min-height: 30px;
@@ -147,7 +157,7 @@ footer ul {
 /*footer ul li {
   display: inline-block;
 }
-
+*/
 a.social {
   display: inline-block;
   text-indent: -9999px;
@@ -155,9 +165,10 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
-  transition: all .5s;
+  /*opacity: .4;*/
+  /*transition: all .5s;*/
 }
+/*
 a.twitter {
   background-image: url(images/twitter.svg);
 }
